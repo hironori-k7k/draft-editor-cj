@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>原稿変換ツール</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <main>
+    <section class="flex">
+      <div class="outer">
+        <div><button id="run">run</button></div>
+        <textarea id="inputArea" rows="60" placeholder="ここにテキストエディタからコピーした原稿を貼り付け"></textarea>
+      </div>
+      <div class="outer">
+        <div><button id="copy">copy</button></div>
+        <textarea id="outputArea" rows="60"></textarea>
+      </div>
+    </section>
+  </main>
+  <script src="script/tableFormatter.js"></script>
+  <script type="module" src="script/main.js"></script>
+</body>
+</html>

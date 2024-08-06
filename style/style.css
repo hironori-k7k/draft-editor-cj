@@ -1,0 +1,22 @@
+html {
+  background: #111;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.outer {
+  flex: 1;
+  padding: 5px;
+}
+div.outer textarea {
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  background: #111;
+  color: #fff;
+  border-color: "fff";
+}/*# sourceMappingURL=style.css.map */
