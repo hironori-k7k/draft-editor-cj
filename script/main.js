@@ -1078,4 +1078,4 @@ function test() {
   elem.inputArea.value = testDraft;
   main();
 }
-test();
+// test();
